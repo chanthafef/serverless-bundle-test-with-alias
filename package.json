@@ -2,7 +2,7 @@
   "name": "serverless-bundle-test-with-alias",
   "version": "1.0.0",
   "description": "This shows how to use alias with the serverless-bundle test command.",
-  "main": "handler.js",
+  "main": "handlers/handler.js",
   "scripts": {
     "test": "serverless-bundle test"
   },
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/chanthafef/serverless-bundle-test-with-alias#readme",
   "devDependencies": {
-    "serverless-bundle": "^1.9.0"
+    "serverless-bundle": "git+https://github.com/chanthafef/serverless-bundle.git"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "libs(.*)$": "<rootDir>/libs/$1"
+    }
   }
 }

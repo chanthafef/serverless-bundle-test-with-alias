@@ -1,5 +1,9 @@
 service: serverless-bundle-test-with-alias
 
+custom:
+  bundle:
+    aliases:
+      - libs: libs
 plugins:
   - serverless-bundle
 
@@ -9,4 +13,4 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handlers/handler.hello
