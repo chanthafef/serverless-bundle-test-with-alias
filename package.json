@@ -1,0 +1,22 @@
+{
+  "name": "serverless-bundle-test-with-alias",
+  "version": "1.0.0",
+  "description": "This shows how to use alias with the serverless-bundle test command.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanthafef/serverless-bundle-test-with-alias.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanthafef/serverless-bundle-test-with-alias/issues"
+  },
+  "homepage": "https://github.com/chanthafef/serverless-bundle-test-with-alias#readme",
+  "devDependencies": {
+    "serverless-bundle": "^1.9.0"
+  }
+}

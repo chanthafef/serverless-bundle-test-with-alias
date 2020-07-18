@@ -1,0 +1,12 @@
+service: serverless-bundle-test-with-alias
+
+plugins:
+  - serverless-bundle
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  hello:
+    handler: handler.hello
