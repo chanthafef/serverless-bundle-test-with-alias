@@ -35,3 +35,7 @@ import sum from 'libs/sum"
 ```
 
 ```serverless-bundle test``` now works with an alias.
+
+# doc
+jest moduleNameMapper:
+https://jestjs.io/docs/en/configuration#modulenamemapper-objectstring-string--arraystring
